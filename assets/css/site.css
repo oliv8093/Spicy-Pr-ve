@@ -1,3 +1,27 @@
 body{
-    background-color: blue;
+    background-color: #ffffff;
 }
+
+.mydiv {
+    position: relative;
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+}
+img.hero {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.logo-spicy-container img{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
+
+
