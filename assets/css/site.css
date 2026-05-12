@@ -1,5 +1,11 @@
 body{
     background-color: #ffffff;
+    margin: 0;
+    padding: 0; 
+}
+
+img{
+    display: block;
 }
 
 .mydiv {
@@ -8,6 +14,7 @@ body{
     width: 100%;
     overflow: hidden;
 }
+
 img.hero {
     width: 100%;
     height: auto;
@@ -15,13 +22,48 @@ img.hero {
 }
 
 .logo-spicy-container img{
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    margin: 0px;
 }
 
+.navbar ul{
+    list-style: none;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
 
+.navbar a{
+    
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
 
+.navbar a:hover{
+    background-color: #2a2828;
+}
 
+.navbar li{
+    float: left;
+    padding-left: 35px;
+}
+
+.navbar{
+    padding: 0px;
+    margin: 0px;
+}
+
+.kontakt{
+    color: #0e5a94;
+}
+
+.hvid{
+    color: #ffffff;
+}
 
